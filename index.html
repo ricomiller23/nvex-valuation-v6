@@ -722,7 +722,7 @@
         const tv = (cf10 * (1 + gR)) / (dR - gR);
         const ev = npv + (tv / Math.pow(1 + dR, 10));
 
-        mcResults.push({ ev, rpd });
+        mcResults.push({ ev });
       }
       mcResults.sort((a, b) => a.ev - b.ev);
     }
